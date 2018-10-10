@@ -1,0 +1,30 @@
+.container{
+	background-color: silver;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;	
+}
+/*body{
+	background-image: url(legislatura.jpg);
+}*/
+nav{
+	background: #A2E2E3;
+}
+#sen a.dropdown-item:hover{
+	background-color: #25A3CF;
+	color: white;
+}
+i{
+	font-family: fantasy;
+	font-size: 12;
+}
+
+marquee{
+	position: fixed;
+	bottom: 0;	
+}
+
+h1#titulo span {
+	font-size: 0.7em;
+	/*font-stretch: bold;*/
+}

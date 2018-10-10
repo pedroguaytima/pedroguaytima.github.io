@@ -1,0 +1,101 @@
+h1{
+	font-family: 'Teko', sans-serif;
+	text-align: center;
+	font-size: 400%;
+	text-shadow: rgb(10.6, 4.7, 30.2);
+}
+
+h2{
+
+	text-align: all;
+	padding-left: 40px;
+	padding-right: 10px;
+	padding-bottom: 40px;
+	padding-top: 20px;
+}
+
+img{
+	/*padding-bottom: 10px;*/
+	padding: 40px;
+	transition: all 3s;	
+}
+img:hover {
+	/*se agranda la imagen al pasar cursor*/
+	transform: scale(1.1);
+}
+
+div{
+	text-align: center;
+}
+
+#fila div > *{
+
+}
+
+.startup{
+	background-position: center;
+ 	background-size: cover;
+  	height: 100%;
+}
+
+/*color fuente*/
+.faded {
+  color: rgba(19, 93, 93, 0.8); 
+}
+
+.col{
+	background-color: rgba(203, 208, 208, 0.5);
+	border: 2px solid black;
+}
+
+.boxmodel{
+	/*border: 5px solid red;	*/
+	/*display: inline-block;*/
+
+/*--arriba derecha abajo izq*/
+	padding: 15px 5px 5px 5px;
+	margin: 5px 5px 5px 5px;	
+/*--tama;o contenido */
+	/*width: 58px;
+	height: 14px;*/
+	text-align: center;
+}
+
+.row{
+	align-content: center;
+}
+
+#nombre{
+	font-weight: bolder;
+	font-family: 'K2D', sans-serif;
+	color: ##6c757d;
+	padding-bottom: 2px;
+}
+
+#datos{
+	text-align: left;
+}
+
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+  align-content: center;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44; }
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
